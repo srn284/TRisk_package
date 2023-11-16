@@ -1,4 +1,4 @@
-import HORIZON.CVmortalityPred_inHF.pytorch_pretrained_bert as Bert
+import TRiskSurv.pytorch_pretrained_bert as Bert
 
 import os
 import argparse
@@ -14,7 +14,7 @@ from torchvision import datasets, transforms
 from torchvision.utils import save_image
 
 
-from HORIZON.CVmortalityPred_inHF.ModelPkg.CPHloss import *
+from TRiskSurv.ModelPkg.CPHloss import *
 
 
 
